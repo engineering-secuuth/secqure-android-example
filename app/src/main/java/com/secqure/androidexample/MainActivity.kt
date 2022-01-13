@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         rn_button.setOnClickListener {
             Log.d("Main", "RN_Button Clicked...")
             WebView.setWebContentsDebuggingEnabled(true)
-            Secqure(this@MainActivity, "XXXXX", "XXXXX")
+            Secqure(this@MainActivity, "68cc59e4-ed89-4271-bce3-a5b417772103", "TL5vB28DsVjb9JgH")
                 .login(CallbackActivity::class.java.name)
 //            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
         }
